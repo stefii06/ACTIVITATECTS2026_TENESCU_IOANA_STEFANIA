@@ -10,6 +10,6 @@ public class Lion extends Animal {
 
     @Override
     public void eat(String ZooKeeperName) {
-        System.out.println("Zookeeperul " + ZooKeeperName+ "hraneste leul" +super.name+ "cu " + super.foodType );
+        System.out.println("Zookeeperul " + ZooKeeperName+ " hraneste leul " +super.name+ " cu " + super.foodType );
     }
 }

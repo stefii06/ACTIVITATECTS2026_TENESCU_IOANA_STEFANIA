@@ -10,7 +10,7 @@ import ro.ase.cts.zoo.Zookeeper;
 public class Main {
     public static void main(String[] args) {
 
-        Zoo zoo = new Zoo("Zoo Baneasa", new Zookeeper("Ionel"));
+        Zoo zoo = new Zoo("Zoo Baneasa", new Zookeeper("Ionel") );
         Lion lion= new Lion("Norocel", 20, FoodType.MEAT, 80);
         Zebra zebra = new Zebra("Steluta", 10, FoodType.GRASS, 60);
 

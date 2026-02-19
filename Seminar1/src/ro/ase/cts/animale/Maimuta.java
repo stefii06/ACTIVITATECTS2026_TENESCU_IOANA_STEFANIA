@@ -7,7 +7,7 @@ public class Maimuta extends Animal{
 
     @Override
     public void eat(String ZooKeeperName) {
-        System.out.println(ZooKeeperName+" hraneste cu" + super.foodType+"pe" +super.name);
+        System.out.println(ZooKeeperName+" hraneste cu " + super.foodType+" pe " +super.name+ " maimuta");
 
     }
 }
