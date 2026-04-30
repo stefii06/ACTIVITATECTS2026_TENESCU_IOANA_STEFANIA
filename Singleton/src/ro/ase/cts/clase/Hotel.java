@@ -21,7 +21,10 @@ public class Hotel {
             instance = new Hotel(numeHotel, nrCamere, nrCamereOcupate);
         }
         return instance;  // lazy initialisation
-    } // e recomandat sa blocam cat mai putin
+    }  // e recomandat sa blocam cat mai putin
+
+
+
 
     public void rezervaCamera(){
         if(this.nrCamereOcupate<this.nrCamere){

@@ -9,6 +9,7 @@ public class main {
         Hotel hotel2 = Hotel.getInstance("MegaContinental", 200,0);  // e aceeasi instanta in spate, deci tot hotel1
 
 
+
         // hotel1 = hotel2
         //punctaj pentru testare: de oricate ori creez un hotel (hotel1,hotel2,hotel3 e defapt aceeasi instanta)
 

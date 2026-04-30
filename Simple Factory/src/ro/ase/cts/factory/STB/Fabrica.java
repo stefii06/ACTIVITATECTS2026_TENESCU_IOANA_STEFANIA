@@ -6,6 +6,8 @@ import ro.ase.cts.clase.STB.Tramvai;
 import ro.ase.cts.clase.STB.Troleibuz;
 
 public class Fabrica {
+
+
     public MijlocTransport getMijlocTransport(TipTransport tipo, int numarRoti, String numarInmatriculare) {
         if(tipo == TipTransport.AUTOBUZ){
             return new Autobuz(numarRoti, numarInmatriculare);
