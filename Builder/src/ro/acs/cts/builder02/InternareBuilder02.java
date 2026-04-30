@@ -32,7 +32,7 @@ public class InternareBuilder02 implements AbstractBuilder02{
 
     @Override
     public AbstractBuilder02 setArePapuci(boolean are_papuci) {
-        this.papuci_camera=papuci_camera;
+        this.papuci_camera=are_papuci;
         return this;
     }
 

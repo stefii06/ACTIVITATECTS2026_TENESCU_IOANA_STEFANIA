@@ -21,13 +21,14 @@ public class Main {
 
         Internare internare3=builder.setPatRabatabil(true).build();
         Internare internare4=builder.setArePapuci(true).setNume("Annie").build();
+        // internare3 si internare 4 e aceeasi internare modificata de  2 ori
 
         System.out.println(internare3.toString());
         System.out.println(internare4.toString());
 
 
         AbstractBuilder02 builder02=new InternareBuilder02();
-        builder.setMic_dejun(true);
+        builder02.setMic_dejun(true);
         Internare02 internare5=builder02.build("Alin");
         Internare02 internare6=builder02.build("Gigel");
 
