@@ -1,4 +1,8 @@
 package ro.ase.cts.clase.Curierat;
 
-public class ModLivrare {
+public interface ModLivrare {
+
+    void livreaza();
+
+
 }

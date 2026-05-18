@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package ro.ase.cts.clase.AgentieTurism;
 
 public class Client {
     private String nume;
