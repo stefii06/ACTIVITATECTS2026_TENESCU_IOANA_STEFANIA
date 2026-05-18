@@ -1,4 +1,19 @@
 package ro.ase.cts.clase;
 
-public class CalatorieAutobuz {
+public class CalatorieAutobuz extends CalatorieHandler{
+
+
+
+
+    @Override
+    public String recomandaCalatorie(double distanta) {
+        if(distanta<5){
+            return "Autobuz";
+        } else {
+            return super.successor.recomandaCalatorie(distanta);
+        }
+    }
+
+
+
 }
