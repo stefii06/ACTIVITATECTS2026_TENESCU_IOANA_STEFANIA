@@ -1,4 +1,6 @@
 package ro.ase.cts.clase;
 
-public class Pacient {
+public interface Pacient {
+
+    void receptioneazaNotificare(String mesaj);
 }
